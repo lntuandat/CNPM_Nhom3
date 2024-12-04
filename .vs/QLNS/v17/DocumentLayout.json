@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\.NET\\QLNS_Clone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35907AFA-B64C-4AEA-A8BE-136883F622AF}|QLNS\\QLNS.csproj|D:\\.NET\\QLNS_Clone\\qlns\\tinhluong\\childform\\chamcong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35907AFA-B64C-4AEA-A8BE-136883F622AF}|QLNS\\QLNS.csproj|d:\\.net\\qlns_clone\\qlns\\tinhluong\\childform\\chamcong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35907AFA-B64C-4AEA-A8BE-136883F622AF}|QLNS\\QLNS.csproj|solutionrelative:qlns\\tinhluong\\childform\\chamcong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35907AFA-B64C-4AEA-A8BE-136883F622AF}|QLNS\\QLNS.csproj|d:\\.net\\qlns_clone\\qlns\\helper\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35907AFA-B64C-4AEA-A8BE-136883F622AF}|QLNS\\QLNS.csproj|D:\\.NET\\QLNS_Clone\\qlns\\helper\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35907AFA-B64C-4AEA-A8BE-136883F622AF}|QLNS\\QLNS.csproj|solutionrelative:qlns\\helper\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -185,8 +185,7 @@
               "RelativeToolTip": "QLNS\\Helper\\KetNoi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T17:00:07.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T17:00:07.197Z"
             },
             {
               "$type": "Document",
@@ -252,7 +251,7 @@
               "RelativeDocumentMoniker": "QLNS\\TinhLuong\\ChildForm\\ChamCong.cs",
               "ToolTip": "D:\\.NET\\QLNS_Clone\\QLNS\\TinhLuong\\ChildForm\\ChamCong.cs",
               "RelativeToolTip": "QLNS\\TinhLuong\\ChildForm\\ChamCong.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T06:26:49.015Z",
               "EditorCaption": ""
@@ -436,8 +435,7 @@
               "ToolTip": "D:\\.NET\\QLNS_Clone\\QLNS\\Properties\\Resources.resx",
               "RelativeToolTip": "QLNS\\Properties\\Resources.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-11-17T08:35:32.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T08:35:32.156Z"
             },
             {
               "$type": "Document",
@@ -449,8 +447,7 @@
               "RelativeToolTip": "QLNS\\Properties\\Resources.resx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAMkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-12-03T07:10:46.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T07:10:46.894Z"
             },
             {
               "$type": "Document",
@@ -549,8 +546,7 @@
               "ToolTip": "D:\\.NET\\QLNS_Clone\\QLNS\\TinhLuong\\ChildForm\\ChamCong.cs [Design]",
               "RelativeToolTip": "QLNS\\TinhLuong\\ChildForm\\ChamCong.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T06:24:39.794Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-03T06:24:39.794Z"
             },
             {
               "$type": "Document",
