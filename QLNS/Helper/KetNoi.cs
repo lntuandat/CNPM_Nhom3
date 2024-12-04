@@ -8,6 +8,6 @@ namespace QLNS.Helper
 {
     public class KetNoi
     {
-        public static string kn { get; } = "Data Source=LAPTOP-JTJE2T8G\\SQLEXPRESS;Initial Catalog=QLNhanSu;Integrated Security=True;";
+        public static string kn { get; } = "Data Source=.;Initial Catalog=QLNhanSu_CNPM;Integrated Security=True;";
     }
 }
