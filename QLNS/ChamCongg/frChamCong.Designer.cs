@@ -55,6 +55,7 @@
             this.dgv_chamcong.Size = new System.Drawing.Size(2463, 1030);
             this.dgv_chamcong.TabIndex = 6;
             this.dgv_chamcong.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_HDNV_CellClick);
+            this.dgv_chamcong.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_chamcong_CellContentClick);
             // 
             // label4
             // 

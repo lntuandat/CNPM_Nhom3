@@ -79,6 +79,7 @@ namespace QLNS
             btn_PhongBan.BackColor = Color.Blue;
             btn_TinhLuong.BackColor = Color.Blue;
             btn_ThongKe.BackColor = Color.Blue;
+            btn_ChamCong.BackColor = Color.Blue;    
         }
 
         private void btn_DangXuat_Click(object sender, EventArgs e)
@@ -112,7 +113,7 @@ namespace QLNS
         private void btn_ChamCong_Click(object sender, EventArgs e)
         {
              doiMauSidebar();
-            btn_TinhLuong.BackColor = Color.DodgerBlue;
+            btn_ChamCong.BackColor = Color.DodgerBlue;
             panelContainer.Controls.Clear();
             frChamCong tl = new frChamCong();
             tl.TopLevel = false;

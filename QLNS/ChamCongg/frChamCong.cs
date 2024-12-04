@@ -170,5 +170,10 @@ namespace QLNS.ChamCongg
             ThemCongNV frthemcong = new ThemCongNV();
             frthemcong.Show();
         }
+
+        private void dgv_chamcong_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
