@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a2064d90250c41ad9364054e1240a38f" Name="Diagram1">
+        <EntityTypeShape EntityType="QLNhanSu_CNPMModel.BangLuong" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhanSu_CNPMModel.BaoHiemXaHoi" Width="1.5" PointX="8.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhanSu_CNPMModel.ChamCong" Width="1.5" PointX="8.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhanSu_CNPMModel.ChucVu" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhanSu_CNPMModel.HopDongNhanVien" Width="1.5" PointX="8.25" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhanSu_CNPMModel.MaLoaiNV" Width="1.5" PointX="3.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhanSu_CNPMModel.NhanVien" Width="1.5" PointX="6" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhanSu_CNPMModel.PhongBan" Width="1.5" PointX="3.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhanSu_CNPMModel.TaiKhoan" Width="1.5" PointX="3.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhanSu_CNPMModel.XepLoai" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <AssociationConnector Association="QLNhanSu_CNPMModel.FK__BangLuong__MaBHX__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhanSu_CNPMModel.FK__BangLuong__MaCC__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhanSu_CNPMModel.FK__BangLuong__MaCV__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhanSu_CNPMModel.FK__BangLuong__MaNV__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhanSu_CNPMModel.FK__BangLuong__MaXL__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhanSu_CNPMModel.FK__BaoHiemXaH__MaNV__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhanSu_CNPMModel.FK__ChamCong__MaNV__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhanSu_CNPMModel.FK__NhanVien__MaCV__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhanSu_CNPMModel.FK__HopDongNha__MaNV__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhanSu_CNPMModel.FK__NhanVien__MaLoai__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhanSu_CNPMModel.FK__NhanVien__MaPB__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhanSu_CNPMModel.FK__NhanVien__UserID__571DF1D5" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
