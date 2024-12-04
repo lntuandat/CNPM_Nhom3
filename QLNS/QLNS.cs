@@ -3,6 +3,7 @@ using QLNS.Login;
 using QLNS.NhanSu;
 using QLNS.PhongBan;
 using QLNS.TinhLuong;
+using QLNS.ChamCongg;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -28,6 +29,7 @@ namespace QLNS
         }
         private void btn_NhanSu_Click(object sender, EventArgs e)
         {
+            
             doiMauSidebar();
             btn_NhanSu.BackColor = Color.DodgerBlue;
             panelContainer.Controls.Clear();
@@ -105,6 +107,19 @@ namespace QLNS
             SessionManager.UserID = null;
             SessionManager.Username = null;
             SessionManager.UserRole = null;
+        }
+
+        private void btn_ChamCong_Click(object sender, EventArgs e)
+        {
+             doiMauSidebar();
+            btn_TinhLuong.BackColor = Color.DodgerBlue;
+            panelContainer.Controls.Clear();
+            frChamCong tl = new frChamCong();
+            tl.TopLevel = false;
+            tl.FormBorderStyle = FormBorderStyle.None;
+            tl.Dock = DockStyle.Fill;
+            panelContainer.Controls.Add(tl);
+            tl.Show();
         }
     }
 }

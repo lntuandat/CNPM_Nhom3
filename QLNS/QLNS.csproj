@@ -33,12 +33,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,8 +59,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BangLuong.cs">
+      <DependentUpon>QLNS_CNPM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BaoHiemXaHoi.cs">
+      <DependentUpon>QLNS_CNPM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChamCong.cs">
+      <DependentUpon>QLNS_CNPM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChamCongg\frChamCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChamCongg\frChamCong.Designer.cs">
+      <DependentUpon>frChamCong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChamCongg\ThemCongNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChamCongg\ThemCongNV.Designer.cs">
+      <DependentUpon>ThemCongNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChucVu.cs">
+      <DependentUpon>QLNS_CNPM.tt</DependentUpon>
+    </Compile>
     <Compile Include="Helper\KetNoi.cs" />
     <Compile Include="Helper\SessionManager.cs" />
+    <Compile Include="HopDongNhanVien.cs">
+      <DependentUpon>QLNS_CNPM.tt</DependentUpon>
+    </Compile>
     <Compile Include="Login\DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +99,9 @@
     </Compile>
     <Compile Include="Login\NhanVien.Designer.cs">
       <DependentUpon>NhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaLoaiNV.cs">
+      <DependentUpon>QLNS_CNPM.tt</DependentUpon>
     </Compile>
     <Compile Include="NhanSu\ChildForm\DanhSachNghiViec.cs">
       <SubType>Form</SubType>
@@ -106,17 +145,23 @@
     <Compile Include="NhanSu\NhanSu.Designer.cs">
       <DependentUpon>NhanSu.cs</DependentUpon>
     </Compile>
+    <Compile Include="NhanVien.cs">
+      <DependentUpon>QLNS_CNPM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhongBan.cs">
+      <DependentUpon>QLNS_CNPM.tt</DependentUpon>
+    </Compile>
     <Compile Include="PhongBan\ChildForm\DSNhanVienPhongBan.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PhongBan\ChildForm\DSNhanVienPhongBan.Designer.cs">
       <DependentUpon>DSNhanVienPhongBan.cs</DependentUpon>
     </Compile>
-    <Compile Include="PhongBan\PhongBan.cs">
+    <Compile Include="PhongBan\PhongBann.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PhongBan\PhongBan.Designer.cs">
-      <DependentUpon>PhongBan.cs</DependentUpon>
+    <Compile Include="PhongBan\PhongBann.Designer.cs">
+      <DependentUpon>PhongBann.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -131,6 +176,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLNS_CNPM.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNS_CNPM.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QLNS_CNPM.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNS_CNPM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QLNS_CNPM.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNS_CNPM.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="TaiKhoan.cs">
+      <DependentUpon>QLNS_CNPM.tt</DependentUpon>
+    </Compile>
     <Compile Include="TinhLuong\ChildForm\ChamCong.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +206,15 @@
     <Compile Include="TinhLuong\TinhLuong.Designer.cs">
       <DependentUpon>TinhLuong.cs</DependentUpon>
     </Compile>
+    <Compile Include="XepLoai.cs">
+      <DependentUpon>QLNS_CNPM.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ChamCongg\frChamCong.resx">
+      <DependentUpon>frChamCong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChamCongg\ThemCongNV.resx">
+      <DependentUpon>ThemCongNV.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login\DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
@@ -173,8 +245,8 @@
     <EmbeddedResource Include="PhongBan\ChildForm\DSNhanVienPhongBan.resx">
       <DependentUpon>DSNhanVienPhongBan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PhongBan\PhongBan.resx">
-      <DependentUpon>PhongBan.cs</DependentUpon>
+    <EmbeddedResource Include="PhongBan\PhongBann.resx">
+      <DependentUpon>PhongBann.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QLNS.resx">
       <DependentUpon>QLNS.cs</DependentUpon>
@@ -200,11 +272,20 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EntityDeploy Include="QLNS_CNPM.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>QLNS_CNPM.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="QLNS_CNPM.edmx.diagram">
+      <DependentUpon>QLNS_CNPM.edmx</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Icons\analytics.png" />
     <Content Include="Icons\business.png" />
@@ -231,6 +312,16 @@
     <Content Include="Icons\task.png" />
     <Content Include="Icons\user.png" />
     <Content Include="Icons\multiply.png" />
+    <Content Include="QLNS_CNPM.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>QLNS_CNPM.edmx</DependentUpon>
+      <LastGenOutput>QLNS_CNPM.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="QLNS_CNPM.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>QLNS_CNPM.edmx</DependentUpon>
+      <LastGenOutput>QLNS_CNPM.cs</LastGenOutput>
+    </Content>
     <Content Include="Resource\background.png" />
     <Content Include="Resource\bgpage.jpg" />
     <Content Include="Resource\logo.png" />
