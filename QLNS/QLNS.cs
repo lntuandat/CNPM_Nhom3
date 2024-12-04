@@ -3,6 +3,7 @@ using QLNS.Login;
 using QLNS.NhanSu;
 using QLNS.PhongBan;
 using QLNS.TinhLuong;
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -105,6 +106,19 @@ namespace QLNS
             SessionManager.UserID = null;
             SessionManager.Username = null;
             SessionManager.UserRole = null;
+        }
+
+        private void btnTaiKhoan_Click(object sender, EventArgs e)
+        {
+            doiMauSidebar();
+            btnTaiKhoan.BackColor = Color.DodgerBlue;
+            panelContainer.Controls.Clear();
+            TaiKhoan pb = new TaiKhoan();
+            pb.TopLevel = false;
+            pb.FormBorderStyle = FormBorderStyle.None;
+            pb.Dock = DockStyle.Fill;
+            panelContainer.Controls.Add(pb);
+            pb.Show();
         }
     }
 }

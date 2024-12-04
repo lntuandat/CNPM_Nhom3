@@ -46,6 +46,7 @@
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(257, 34);
             this.txtPass.TabIndex = 4;
+            this.txtPass.Text = "Admin";
             // 
             // btnSubmit
             // 
@@ -67,6 +68,7 @@
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(257, 34);
             this.txtUsername.TabIndex = 2;
+            this.txtUsername.Text = "Admin";
             // 
             // pictureBox2
             // 

@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{35907AFA-B64C-4AEA-A8BE-136883F622AF}|QLNS\\QLNS.csproj|solutionrelative:qlns\\nhansu\\nhansu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35907AFA-B64C-4AEA-A8BE-136883F622AF}|QLNS\\QLNS.csproj|d:\\qlns\\qlns\\login\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35907AFA-B64C-4AEA-A8BE-136883F622AF}|QLNS\\QLNS.csproj|D:\\QLNS\\qlns\\login\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35907AFA-B64C-4AEA-A8BE-136883F622AF}|QLNS\\QLNS.csproj|solutionrelative:qlns\\login\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -169,17 +169,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "KetNoi.cs",
               "DocumentMoniker": "D:\\QLNS\\QLNS\\Helper\\KetNoi.cs",
               "RelativeDocumentMoniker": "QLNS\\Helper\\KetNoi.cs",
-              "ToolTip": "D:\\QLNS\\QLNS\\Helper\\KetNoi.cs",
-              "RelativeToolTip": "QLNS\\Helper\\KetNoi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\QLNS\\QLNS\\Helper\\KetNoi.cs*",
+              "RelativeToolTip": "QLNS\\Helper\\KetNoi.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T17:00:07.197Z",
               "EditorCaption": ""
@@ -193,8 +197,7 @@
               "ToolTip": "D:\\QLNS\\QLNS\\Login\\DangNhap.cs [Design]",
               "RelativeToolTip": "QLNS\\Login\\DangNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T06:41:09.752Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-03T06:41:09.752Z"
             },
             {
               "$type": "Document",
@@ -206,8 +209,7 @@
               "RelativeToolTip": "QLNS\\Login\\DangNhap.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T07:24:18.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T07:24:18.354Z"
             },
             {
               "$type": "Document",
@@ -228,8 +230,7 @@
               "ToolTip": "D:\\QLNS\\QLNS\\Login\\NhanVien.cs [Design]",
               "RelativeToolTip": "QLNS\\Login\\NhanVien.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T07:17:38.318Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-03T07:17:38.318Z"
             },
             {
               "$type": "Document",
@@ -241,8 +242,7 @@
               "RelativeToolTip": "QLNS\\Login\\NhanVien.cs",
               "ViewState": "AgIAAHwAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T07:18:03.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T07:18:03.506Z"
             },
             {
               "$type": "Document",
@@ -253,8 +253,7 @@
               "ToolTip": "D:\\QLNS\\QLNS\\NhanSu\\NhanSu.cs [Design]",
               "RelativeToolTip": "QLNS\\NhanSu\\NhanSu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T06:48:04.432Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-01T06:48:04.432Z"
             },
             {
               "$type": "Document",
@@ -424,8 +423,7 @@
               "ToolTip": "D:\\QLNS\\QLNS\\Properties\\Resources.resx",
               "RelativeToolTip": "QLNS\\Properties\\Resources.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-11-17T08:35:32.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T08:35:32.156Z"
             },
             {
               "$type": "Document",
@@ -437,8 +435,7 @@
               "RelativeToolTip": "QLNS\\Properties\\Resources.resx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAMkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-12-03T07:10:46.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T07:10:46.894Z"
             },
             {
               "$type": "Document",
@@ -618,8 +615,7 @@
               "RelativeToolTip": "QLNS\\NhanSu\\NhanSu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T04:24:01.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T04:24:01.186Z"
             },
             {
               "$type": "Document",
